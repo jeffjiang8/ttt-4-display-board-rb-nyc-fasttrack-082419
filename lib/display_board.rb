@@ -8,8 +8,6 @@ def display_board(board)
   puts "   |   |   "
 end
 
-board_one = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board(board_one)
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
 
-board_two = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-display_board(board_two)
